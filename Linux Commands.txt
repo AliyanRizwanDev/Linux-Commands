@@ -1,0 +1,199 @@
+    cd (Change Directory): Used to change the current working directory.
+        Example: cd Documents
+
+    ls (List Directory Contents): Lists files and directories in the current directory.
+        Example: ls -l (detailed list) or ls -a (including hidden files)
+
+    pwd (Print Working Directory): Prints the path of the current directory.
+        Example: pwd
+
+    mkdir (Make Directory): Creates a new directory.
+        Example: mkdir new_folder
+
+    rmdir (Remove Directory): Deletes an empty directory.
+        Example: rmdir old_folder
+
+    rm (Remove): Deletes files and directories.
+        Example: rm file.txt or rm -r directory
+
+    cp (Copy): Copies files and directories.
+        Example: cp file.txt new_location or cp -r directory new_location
+
+    mv (Move): Moves/renames files and directories.
+        Example: mv file.txt new_location or mv old_name new_name
+
+    cat (Concatenate): Displays the content of a file.
+        Example: cat file.txt
+
+    grep (Global Regular Expression Print): Searches for a specific pattern in files.
+        Example: grep "pattern" file.txt
+
+    man (Manual): Displays the manual for a command.
+        Example: man ls to get information about the ls command
+
+    chmod (Change Mode): Changes file permissions.
+        Example: chmod +x file.sh (gives execute permission)
+
+    chown (Change Owner): Changes the owner of a file or directory.
+        Example: chown user:group file.txt
+
+    sudo (Superuser Do): Executes commands with superuser privileges.
+        Example: sudo apt-get update
+
+    apt-get (Advanced Package Tool): Package manager for Debian-based systems.
+        Example: sudo apt-get install package_name
+
+    yum (Yellowdog Updater Modified): Package manager for Red Hat-based systems.
+        Example: sudo yum install package_name
+
+    ps (Process Status): Displays information about active processes.
+        Example: ps aux
+
+    kill: Terminates processes using their process ID (PID).
+        Example: kill PID
+
+    tar (Tape Archive): Used to archive files.
+        Example: tar -cvf archive.tar file1 file2
+
+    ssh (Secure Shell): Allows secure remote access to a machine.
+        Example: ssh user@hostname
+
+    df (Disk Free): Displays disk space usage.
+        Example: df -h (human-readable format)
+
+    du (Disk Usage): Shows the disk space used by files and directories.
+        Example: du -sh directory_name (summary of directory size)
+
+    top: Displays system resource usage (CPU, memory, etc.) and active processes.
+        Example: Just type top in the terminal to launch the interface.
+
+    free: Shows system memory usage and available memory.
+        Example: free -h (human-readable format)
+
+    wget (Web Get): Downloads files from the internet.
+        Example: wget https://www.example.com/file.zip
+
+    curl: A tool to transfer data from or to a server.
+        Example: curl -O https://www.example.com/file.zip
+
+    ifconfig (Interface Configuration): Displays network interface information.
+        Example: ifconfig or ifconfig eth0
+
+    ping: Tests the reachability of a host on a network.
+        Example: ping google.com
+
+    traceroute: Shows the route packets take to reach a destination.
+        Example: traceroute google.com
+
+    date: Displays the current date and time.
+        Example: date
+
+    history: Shows the command history.
+        Example: history or history 10 (last 10 commands)
+
+    awk: A powerful programming language mainly used for pattern scanning and processing.
+        Example: awk '{print $2}' file.txt (prints the second column of a file)
+
+    sed (Stream Editor): Processes text files and performs basic text transformations.
+        Example: sed 's/old_text/new_text/g' file.txt (replaces 'old_text' with 'new_text')
+
+    find: Searches for files in a directory hierarchy.
+        Example: find /path/to/directory -name "*.txt"
+
+    scp (Secure Copy): Securely copies files between hosts on a network.
+        Example: scp file.txt user@remote_host:/remote/directory
+
+    tee: Reads from standard input and writes to standard output and files simultaneously.
+        Example: echo "Hello" | tee file.txt
+
+    sort: Sorts lines of text files.
+        Example: sort file.txt or sort -r file.txt (reverse order)
+
+    uniq: Filters adjacent matching lines from input.
+        Example: uniq file.txt or uniq -c file.txt (with line count)
+
+    grep: Searches for patterns in files.
+        Example: grep "pattern" file.txt or grep -r "pattern" directory
+
+    shutdown: Shuts down or restarts the system.
+        Example: shutdown -h now (shuts down immediately)
+
+    nmcli (Network Manager Command-Line Interface): Manages networking settings.
+
+    Example: nmcli connection show (displays network connections)
+
+    iptables: Manages firewall rules.
+
+    Example: iptables -L (lists firewall rules)
+
+    chmod (Change Mode): Changes file permissions.
+
+    Example: chmod +x file.sh (gives execute permission)
+
+    chown (Change Owner): Changes the owner of a file or directory.
+
+    Example: chown user:group file.txt
+
+    useradd: Creates a new user account.
+
+    Example: sudo useradd -m newuser (creates a new user with a home directory)
+
+    userdel: Deletes a user account.
+
+    Example: sudo userdel username (deletes the specified user)
+
+    passwd: Allows users to change their passwords.
+
+    Example: passwd or passwd username
+
+    su (Switch User): Allows switching to another user account.
+
+    Example: su username or su - (switches to root)
+
+    groups: Shows the groups a user belongs to.
+
+    Example: groups username
+
+    tar (Tape Archive): Used to archive files.
+
+    Example: tar -cvf archive.tar file1 file2
+
+    zip/unzip: Compresses and decompresses files in zip format.
+
+    Example: zip -r archive.zip directory or unzip archive.zip
+
+    quota: Manages file system quotas for users/groups.
+
+    Example: quota -u username (displays user's disk usage and limits)
+
+    at: Executes commands at a specified time.
+
+    Example: at 10:00 then input command(s)
+
+    crontab: Manages scheduled tasks (cron jobs).
+
+    Example: crontab -e (edit cron jobs for the current user)
+
+    lsof (List Open Files): Lists files opened by processes.
+
+    Example: lsof -i (lists network connections)
+
+    journalctl: Views system logs (systemd journal).
+
+    Example: journalctl -xe (displays recent logs)
+
+    ssh (Secure Shell): Allows secure remote access to a machine.
+
+    Example: ssh user@hostname
+
+    scp (Secure Copy): Securely copies files between hosts on a network.
+
+    Example: scp file.txt user@remote_host:/remote/directory
+
+    netstat: Displays network connections, routing tables, etc.
+
+    Example: netstat -tuln (lists listening ports)
+
+    uptime: Shows system uptime and load averages.
+
+    Example: uptime
